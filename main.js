@@ -50,8 +50,8 @@ var removeNote = (title) => {
 }
 
 //addNote('example title', 'a bunch of body text blah blah blah blah')
-//addNote('example title2', 'a bunch of body text blah blah blah blah')
-//addNote('example title3', 'a bunch of body text blah blah blah blah')
+addNote('competitors', 'trapprkeepr requires no log in, no commitment, and one button click to save a note to local storage.')
+addNote('trapprkeepr tips:', 'Enter a title of note and content and then hit the add note button. Once the note has been created, it will appear at the top of your stack. Press remove to delete a note.')
 
 var cardSpace = document.querySelector('#cardspace')
 console.log(fetchNotes())
