@@ -5,7 +5,7 @@ The idea behind this site is to have a super simple way to jot down notes while 
 
 ### Setup
 Clone the repo down to your local environment. Open index.html to utilize trapprkeepr.
-Or go to the sites url: [trapprkeepr](https://github.com/robhaj/js-array-and-string-manipulation)
+Or go to the sites url: [trapprkeepr](github.com)
 
 
 ### Tips
@@ -13,4 +13,3 @@ Or go to the sites url: [trapprkeepr](https://github.com/robhaj/js-array-and-str
 * Notes will show up in most recent order
 * Use the remove button to delete a note
 
-[review this.](https://github.com/robhaj/js-array-and-string-manipulation)
