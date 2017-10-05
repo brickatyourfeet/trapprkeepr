@@ -30,7 +30,7 @@ var addNote = (title, body) => {
   var duplicateNotes = notes.filter((note) => note.title === title)
 
   if (duplicateNotes.length === 0) {
-    notes.push(note)
+    notes.unshift(note)
     saveNotes(notes)
     return note
   }
@@ -105,7 +105,7 @@ form.addEventListener('submit', function(event) {
   //log note - display
 });
 
-//button functionality 
+//button functionality
 document.getElementById("submitter").onclick = function() {
   getNewNote()
 };
