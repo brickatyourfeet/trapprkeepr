@@ -45,27 +45,8 @@
                     <textarea class="form-control notes-body" id="new-note-body" rows="6"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" id="submitter" onclick="getNewNote()">Add Note</button>
-                <script>
-                    document.getElementById("submitter").onclick = function() {getNewNote()};
 
-                    function getNewNote() {
-                        var title = getNoteTitle();
-                        var body = getNoteBody();
-                        location.reload();
-                        //alert("Title: " + title + " - " + "Body: " + body);
-                    }
-
-                    function getNoteTitle() {
-                        var title = document.getElementsByClassName("notes-title");
-                        return title[0].value;
-                    }
-
-                    function getNoteBody() {
-                        var body = document.getElementsByClassName("notes-body");
-                        return body[0].value;
-                    }
-
-                </script>
+                
             </form>
             </div>
 

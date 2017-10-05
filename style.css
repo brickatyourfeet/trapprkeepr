@@ -7,3 +7,8 @@ body {
         padding-top: 56px;
       }
     }
+
+.card{
+  background-color: #e6f3ff;
+  border-color: #333
+}

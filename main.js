@@ -49,9 +49,9 @@ var removeNote = (title) => {
   location.reload()
 }
 
-addNote('example title', 'a bunch of body text blah blah blah blah')
-addNote('example title2', 'a bunch of body text blah blah blah blah')
-addNote('example title3', 'a bunch of body text blah blah blah blah')
+//addNote('example title', 'a bunch of body text blah blah blah blah')
+//addNote('example title2', 'a bunch of body text blah blah blah blah')
+//addNote('example title3', 'a bunch of body text blah blah blah blah')
 
 var cardSpace = document.querySelector('#cardspace')
 console.log(fetchNotes())
@@ -104,3 +104,25 @@ form.addEventListener('submit', function(event) {
   addNote(title.value, body.value)
   //log note - display
 });
+
+//button functionality 
+document.getElementById("submitter").onclick = function() {
+  getNewNote()
+};
+
+function getNewNote() {
+  var title = getNoteTitle();
+  var body = getNoteBody();
+  location.reload();
+  //alert("Title: " + title + " - " + "Body: " + body);
+}
+
+function getNoteTitle() {
+  var title = document.getElementsByClassName("notes-title");
+  return title[0].value;
+}
+
+function getNoteBody() {
+  var body = document.getElementsByClassName("notes-body");
+  return body[0].value;
+}
