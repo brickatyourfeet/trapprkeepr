@@ -1,6 +1,10 @@
 ## trapprkeepr
 This is a note taking app made with JavaScript, HTML&amp;CSS, and BootStrap
+<<<<<<< HEAD
 The idea behind this site is to have a super simple way to jot down notes while you're working on your computer, especially your web browser.
+=======
+The idea behind this site is to have a super simple way to jot down notes while you're working on your computer, especially your web browser. 
+>>>>>>> 89d1bc1aa225d1fc4c7ca939669e883ab7daeb21
 
 
 ### Setup
@@ -12,3 +16,7 @@ Or go to the sites url: [trapprkeepr](github.com)
 * Fill in note title and body to submit a new note.
 * Notes will show up in most recent order
 * Use the remove button to delete a note
+<<<<<<< HEAD
+=======
+
+>>>>>>> 89d1bc1aa225d1fc4c7ca939669e883ab7daeb21
