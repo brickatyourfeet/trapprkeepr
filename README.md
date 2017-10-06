@@ -5,7 +5,7 @@ The idea behind this site is to have a super simple way to jot down notes while 
 
 ### Setup
 Clone the repo down to your local environment. Open index.html to utilize trapprkeepr.
-Or go to the sites url: [trapprkeepr](github.com)
+Or go to the sites url: [trapprkeepr](trapprkeepr.surge.sh)
 
 
 ### Tips
