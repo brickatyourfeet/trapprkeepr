@@ -1,0 +1,32 @@
+{
+  "name": "trapprkeepr",
+  "version": "1.0.0",
+  "description": "Simple note making app for browser",
+  "main": "main.js",
+  "dependencies": {
+    "surge": "^0.19.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brickatyourfeet/trapprkeepr.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "bootstrap",
+    "notes"
+  ],
+  "author": "Kyle Braden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brickatyourfeet/trapprkeepr/issues"
+  },
+  "homepage": "https://github.com/brickatyourfeet/trapprkeepr#readme"
+}

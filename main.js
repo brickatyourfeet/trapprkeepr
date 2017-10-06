@@ -71,9 +71,7 @@ var makeCard = function(note) {
                     <div class="card-block">
                         <h4 class="card-title">${note.title}</h4>
                         <p class="card-text">${note.body}</p>
-                        <a href="#" class="btn btn-primary">Read</a>
-                        <a href="#" class="btn btn-primary">Edit</a>
-                        <button id ="remover" onclick="removeNote('${note.title}')">Remove</a>
+                        <button id ="remover" class="btn btn-primary" onclick="removeNote('${note.title}')">Remove</a>
                     </div>
                 </div><br>`
 

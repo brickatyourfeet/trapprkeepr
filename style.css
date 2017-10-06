@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
 body {
-      padding-top: 54px;
+      padding-top: 14px;
     }
 
     @media (min-width: 992px) {
       body {
-        padding-top: 56px;
+        padding-top: 16px;
       }
     }
 
 .card{
   background-color: #e6f3ff;
   border-color: #e6f3ff
+}
+
+.card-title{
+  padding: 20px 20px;
+}
+
+.card-text{
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+        font-size: 5em;
 }
