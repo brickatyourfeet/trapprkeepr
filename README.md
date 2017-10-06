@@ -8,6 +8,8 @@ Clone the repo down to your local environment. Open index.html to utilize trappr
 Or go to the sites url: [trapprkeepr](trapprkeepr.surge.sh)
 
 
+![](trapprkeepr.png)
+
 ### Tips
 * Fill in note title and body to submit a new note.
 * Notes will show up in most recent order
